@@ -224,3 +224,66 @@ margin-top:30px;
 }
 
   }
+/* PREMIUM EFFECTS */
+
+html{
+scroll-behavior:smooth;
+}
+
+.product-card{
+overflow:hidden;
+}
+
+.product-card img{
+transition:.5s;
+}
+
+.product-card:hover img{
+transform:scale(1.08);
+}
+
+.hero h1{
+background:linear-gradient(90deg,#0d3b2a,#d4af37);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.contact{
+background:#f4f7f2;
+border-radius:25px;
+margin:60px 8%;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.contact p{
+font-size:18px;
+margin:12px 0;
+}
+
+footer p{
+margin-top:10px;
+opacity:.8;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+color:#fff;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
+z-index:999;
+transition:.3s;
+}
+
+.whatsapp-float:hover{
+transform:scale(1.1);
+  }
